@@ -124,6 +124,7 @@
 % colours
 \RequirePackage{xcolor}
 \definecolor{UAFblue}{RGB}{35, 97, 146}
+\definecolor{UAFyellow}{RGB}{255, 205, 0}
 % set languages
 \RequirePackage[english]{babel}
 % To stop hyphenation in titles etc
