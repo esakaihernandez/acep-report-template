@@ -56,40 +56,37 @@
 \chapter{Introduction} %<--------- ACEP report's highest level is Chapter, followed by section, and subsection. Subsubsections can be used, but WILL NOT appear in the table of contents (TOC)
 \label{sec:intro}
 \input{1-Introduction}
+% use \input to write your files in a separate .tex file to make everything cleaner. 
 
-% \section{<xx>}
-% \label{sec:<xx>}
-% <text>
-
-% \subsection{<xx>}
-% \label{sec:<xx>}
-% <text>
 
 %%%%%%%%%%%%%%%%%%
 \chapter{Theory}
 \label{sec:theory}
-% <text>
+
 
 %%%%%%%%%%%%%%%%%%
 \chapter{Experimental Setup}
 \label{sec:exp}
-% <text>
+
 
 %%%%%%%%%%%%%%%%%%
 \chapter{Results}
 \label{sec:results}
-% <text>
+
 
 %%%%%%%%%%%%%%%%%%
 \chapter{Conclusions}
 \label{sec:conc}
-% <text>
+
 
 
 %%%%%%%%%%%%%%%%%%
 % bibliography
 \cleardoublepage
 \label{sec:Bib}
+% Options for references are defined in acep.cls starting around line 144. 
+% References are by default handled by bibtex and formatted as verbose.
+%%%%%%% more information can be found here: https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles 
 \nocite{*} %<--------- This command prints all entries in the bib file. Remove to cite only references cited in the report
 % heading=bibintoc, 
 \printbibliography[title={\LARGE References}]
